@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Playship Landing Page</title>
+</head>
+
+
+<body>
+
+    <section class="container">
+        <nav class="navbar navbar-expand-lg customNavColor">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/playship-rummy.webp" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <p class="current_users" style="margin-bottom: 0;">
+                                    <span class="pulse mr-8"></span>
+                                    47,824 Online
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">How to play?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Art of Rummy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="padding-top:80px;">
+                    <h1 class="hero-head">Play online cash rummy with exciting offers</h1>
+                    <div class="row" style="margin-bottom: 1rem;">
+                        <div class="col">
+                            <span class="yellow-svg">
+                                <img src="imgs/cup-yellow.svg" alt="cup-yellow">
+                            </span>
+                            <p class="para-head">Free weekly tournaments
+                                of ₹40 Lakhs</p>
+                        </div>
+                        <div class="col">
+                            <span class="yellow-svg">
+                                <img src="imgs/game-icon-yellow.svg" alt="game-icon-yellow">
+                            </span>
+                            <p class="para-head">
+                                Play unlimited free cash games
+                            </p>
+                        </div>
+                    </div>
+                    <button class="getApp">
+                        Get App Link
+                    </button>
+                </div>
+                <div class="col-md-6" style="z-index: 2222;">
+                    <div class="mobile-animation-wrapper flex-shrink-0">
+                        <div class="mobile-left">
+                            <img src="/imgs/pucker.svg" alt="pucker" class="pucker-img position-absolute">
+                            <img class="left-img" src="imgs/mobile-left-1x-v2.webp" alt="rummy game board">
+                        </div>
+                        <div class="mobile-right">
+                            <img src="/imgs/pucker.svg" style="width: 40px; height: 40px;" alt="pucker"
+                                class="pucker-img position-absolute">
+                            <img class="right-img" src="imgs/mobile-right-1x-v2.webp"
+                                style="height: 416px; width: 270px;" alt="rummy super 30">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section" style="padding: 72px;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="img-box">
+                        <img width="100" src="imgs/instant-withdraw-usp-v2.webp" alt="">
+                        <p class="img-text">
+                            Unlimited instant <br>
+                            withdrawals
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-box">
+                        <img width="100" src="imgs/smooth-gameplay-usp-v2.webp" alt="">
+                        <p class="img-text">
+                            Smooth gameplay <br>
+                            experience
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-box">
+                        <img width="100" src="imgs/check-game-usp-v2.webp" alt="">
+                        <p class="img-text">
+                            Check game <br>
+                            moves
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-box">
+                        <img width="100" src="imgs/rng-iso-usp-v2.webp" alt="">
+                        <p class="img-text">
+                            RNG & ISO <br>
+                            certified
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fav-game-section" style="padding: 72px;">
+        <h2 class="fav-head">
+            All your favourite games & tournaments
+        </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-grid">
+                        <img class="imgs" src="imgs/points-game-v2.webp" alt="">
+                        <img class="imgs" src="imgs/deals-game-v2.webp" alt="">
+                        <img class="imgs" src="imgs/101-pool-game-v2.webp" alt="">
+                        <img class="imgs" src="imgs/201-pool-game-v2.webp" alt="">
+                        <img class="imgs" src="imgs/61-pool-game-v2.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="swiper">
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="experience-section" style="padding: 72px;">
+        <h2 class="fav-head">
+            All your favourite games & tournaments
+        </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper customWrapper">
+                            <div class="swiper-slide">
+                                <h3 class="big-num">1</h3>
+                                <h2 class="hero-head text-start">Fair Play checks on <br>
+                                    every game</h2>
+                                <p class="para-head text-start">
+                                    All games are monitored 24X7 for fair play violations, ensuring that users play in a
+                                    safe environment
+                                </p>
+                            </div>
+                            <div class="swiper-slide wallpaper-1">
+
+                            </div>
+                            <div class="swiper-slide">
+                                <h3 class="big-num">2</h3>
+                                <h2 class="hero-head text-start">Fair Play checks on <br>
+                                    every game</h2>
+                                <p class="para-head text-start">
+                                    All games are monitored 24X7 for fair play violations, ensuring that users play in a
+                                    safe environment
+                                </p>
+                            </div>
+                            <div class="swiper-slide wallpaper-2">
+
+                            </div>
+                            <div class="swiper-slide">
+                                <h3 class="big-num">3</h3>
+                                <h2 class="hero-head text-start">Fair Play checks on <br>
+                                    every game</h2>
+                                <p class="para-head text-start">
+                                    All games are monitored 24X7 for fair play violations, ensuring that users play in a
+                                    safe environment
+                                </p>
+                            </div>
+                            <div class="swiper-slide wallpaper-3">
+
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="offers-section" style="padding: 72px;">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-md-4">
+                    <div class="offer-card welcome-offer">
+                        <div class="offer-text">
+                            <h3 class="offer-head">Welcome offer for <br>
+                                new users</h3>
+                            <p class="offer-para">Get 100% extra GameCash on first <br>
+                                30 deposits up to ₹10,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="offer-card tuesday-special">
+                        <div class="offer-text">
+                            <h3 class="offer-head">
+                                Tuesday special offer <br>
+                                for all users
+                            </h3>
+                            <p class="offer-para">
+                                Get up to 35% extra GameCash <br>
+                                on deposit done on next Tuesday
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="offer-card first-days-offer">
+                        <div class="offer-text">
+                            <h3 class="offer-head">
+                                Special offer during 1st <br>
+                                5 days of the month
+                            </h3>
+                            <p class="offer-para">Get 35% extra GameCash on <br>
+                                your deposits up to ₹10,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="safe-certified" style="padding: 72px;">
+
+        <div class="container">
+            <div class="row" style="align-items: center;">
+                <div class="col-md-6">
+                    <h2 class="fav-head">
+                        100% Safe & certified
+                    </h2>
+                </div>
+                <div class="col-md-6" style="display: flex;justify-content: flex-end;">
+                    <img class="secure-safe" src="imgs/safe-secure-v2.webp" alt="safe-secure-v2">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="img-box">
+                        <img width="60px" style="display: inherit; margin-bottom: 1rem" src="imgs/safe-pay-v2.webp"
+                            alt="safe-pay-v2">
+                        <p class="para-head" style="font-size: 20px; color: #DEDFDF;">Safe, secure, quick, and <br>
+                            verified
+                            payment channels
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-box">
+                        <img width="60px" style="display: inherit; margin-bottom: 1rem" src="imgs/rng-v2.webp"
+                            alt="rng-v2">
+                        <p class="para-head" style="font-size: 20px; color: #DEDFDF;">RNG-certified gaming <br>
+                            experience
+
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-box">
+                        <img width="60px" style="display: inherit; margin-bottom: 1rem" src="imgs/protection-v2.webp"
+                            alt="protection-v2">
+                        <p class="para-head" style="font-size: 20px; color: #DEDFDF;">Fair gameplay. No bots. <br> 24x7
+                            monitoring.
+
+
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-box">
+                        <img width="60px" style="display: inherit; margin-bottom: 1rem" src="imgs/support-24-v2.webp"
+                            alt="support-24-v2">
+                        <p class="para-head" style="font-size: 20px; color: #DEDFDF;">Customer support available <br> in
+                            5
+                            languages
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-section" style="padding: 72px;">
+        <h2 class="fav-head">
+            Play Rummy Games on Playship Rummy
+
+        </h2>
+        <div class="container">
+            <div class="row">
+                <p class="para-head" style="color: #ffffff80; font-size:22px;line-height:28px;padding-left:0;">
+                    India has invented multiple card and board games that are now popular across the world. One of the
+                    most prominent card games that is played in the country is rummy. Its role in engaging communities
+                    over years stands as a testament to its popularity and importance in our culture. Moreover, rummy’s
+                    ability to transcend boundaries with its simple gameplay makes it a crowd favourite.
+                </p>
+                <p class="para-head" style="color: #ffffff80; font-size:22px;line-height:28px;padding-left:0;">
+                    Bringing this game to the forefront on everyone’s mobile devices is Playship Rummy. Through its
+                    Fairplay protection policies and seamless gameplay, Playship Rummy has carved out an identity that
+                    translates to fun and seamlessness. Its technology and design language in place lets novice rummy
+                    players enjoy practice games whilst enabling serious players to enjoy cash games. One of the major
+                    reasons for Playship Rummy’s unparalleled reputation is its unrivalled rummy experience. Safe,
+                    authentic and secure on all fronts, Playship Rummy has won the hearts of rummy lovers without
+                    compromising on the strategic and fun aspects that are a part and parcel of playing rummy. Security
+                    features like RNG (random number generator), verified payment channels, monitoring for no bots and
+                    features to help players go through their game moves together holistically make Playship Rummy one
+                    of the safest real-money rummy playing apps in the market.
+                </p>
+                <p class="para-head" style="color: #ffffff80; font-size:22px;line-height:28px;padding-left:0;">
+                    Playship Rummy has also been instrumental in bridging the gap between offline and online rummy with
+                    its host of offerings.. Right from hourly tournaments to an enjoyable multiplayer gaming
+                    environment, Playship Rummy can be regarded as the one-stop shop for everyone to enjoy online rummy
+                    to the fullest. Furthermore, players can enjoy multiple games simultaneously, elevating the game's
+                    fast-paced nature to another level. Thanks to the tournaments happening round the clock, players can
+                    also match up with rummy enthusiasts across the country to test their skills.
+                </p>
+                <p class="para-head" style="color: #ffffff80; font-size:22px;line-height:28px;padding-left:0;">
+                    With consistent efforts taken towards providing the best rummy experience on mobile, Playship Rummy
+                    is continually innovating the game and its features. But that’s not all! Playship Rummy also gives
+                    out some of the best offers to its players. Right from the time one joins to the time one adds
+                    funds, rewards in the form of GameCash and FreeCash are up for grabs for users. Players can also
+                    enjoy rummy games right from a buy-in of ₹0.01 to higher limits, aiding them in practising their
+                    rummy skills with lower-valued games and giving them a chance to win big on higher-valued tables.
+                    Most players pick up the delightful interface through practice games first and eventually move on to
+                    the cash section which holds the promise of both exciting gameplay and lucrative rewards. But,
+                    that’s not all why Playship Rummy is amongst the most enjoyed rummy apps in the market. Its
+                    conviction towards its players by offering them dedicated customer support makes them one of the
+                    most trusted and enjoyed rummy apps.
+                </p>
+                <p class="para-head" style="color: #ffffff80; font-size:22px;line-height:28px;padding-left:0;">
+                    Now that you know why Playship Rummy is one of the most enjoyed rummy apps in the country, it’s time
+                    to download it and experience it yourself.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section" style="padding: 72px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-logo">
+                        <img src="imgs/playship-logo-with-title-v2.webp" alt="playship-logo-with-title-v2">
+                    </div>
+                    <div class="row my-3" style="max-width: 350px;">
+                        <div class="col-md-4">
+                            <img width="100px" height="40px" src="imgs/iso-certified.png" alt="iso-certified">
+                        </div>
+                        <div class="col-md-4">
+                            <img width="100px" height="40px" src="imgs/rng-certified.png" alt="rng-certified">
+                        </div>
+                        <div class="col-md-4">
+                            <img width="100px" height="40px" src="imgs/ssl-secure.png" alt="ssl-secure">
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <span class="social insta d-inline-block me-2">
+                            <img src="imgs/instagram-white.svg" alt="instagram-white">
+                        </span>
+                        <span class="social facebook d-inline-block me-2">
+                            <img src="imgs/facebook-white.svg" alt="facebook-white">
+                        </span>
+                    </div>
+                    <div class="mt-3">
+                        <p class="offer-para">
+                            ©2023 playship.com | All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="offer-para">
+                        Players from Meghalaya, Andhra Pradesh, Tamil Nadu, Telangana, Assam, Odisha, Nagaland and
+                        Sikkim are not allowed to play online cash rummy Know More.
+
+
+                    </p>
+
+                    <div class="download-btn">
+                        <p class="offer-para" style="color: #ffffff;font-size: 1.2rem;">
+                            Download our apps from:
+                        </p>
+                        <span class="android">
+                            <a href="#">
+                                <img src="imgs/playstore.png" style="max-width: 159px;" alt="">
+                            </a>
+                        </span>
+                        <span class="ios">
+                            <a href="#">
+                                <img src="imgs/appstore.png" style="max-width: 159px;" alt="">
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+        });
+    </script>
+</body>
+
+</html>
